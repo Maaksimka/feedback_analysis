@@ -11,7 +11,7 @@ import time
 
 # Загрузка предварительно обученной модели и векторизатора
 model = joblib.load("logistic_regression_model.joblib")
-vectorizer = joblib.load("fidf_vectorizer.joblib")
+vectorizer = joblib.load("tfidf_vectorizer.joblib")
 
 st.title('Анализ тональности отзывов')
 

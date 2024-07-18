@@ -1,4 +1,7 @@
+import subprocess
 
+# Установка необходимых библиотек из requirements.txt
+subprocess.call(['pip', 'install', '-r', 'requirements.txt'])
 import streamlit as st
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
